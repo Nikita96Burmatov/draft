@@ -1,0 +1,25 @@
+{
+  "name": "normocard-clinic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "main-scss": "sass --watch scss/main.scss public/main.css"
+  },
+  "author": "Nikita Burmatov",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "mongoose": "^6.1.7",
+    "node-sass": "^7.0.1",
+    "sass": "^1.49.0"
+  },
+  "devDependencies": {
+    "handlebars": "^4.5.0",
+    "nodemon": "^2.0.15"
+  },
+  "type": "module"
+}
